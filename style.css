@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(90deg,rgba(32,178,170,1),rgba(0,255,255,0.2));
+}
+
+h1{
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 12px;
+    
+}
+h1 span, .container label span{
+    color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.user{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.user label{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2;
+}
+.user input{
+   margin-left: 10px;
+   padding:  10px;
+   width: 250px;
+   border-radius: 50px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 1rem;
+   overflow: hidden;
+   box-shadow: 0 0 20px #1E90FF;
+}
+.user button{
+   margin-left: 20px;
+   background: #1E90FF;
+   color: #fff;
+   border-radius: 50px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   padding:  10px;
+   width: 200px;
+   font-size: 1rem;
+   box-shadow: 0 0 20px #fff;
+   
+}
+.user button:hover{
+    transform: scale(1.1);
+}
+
+#repo-02{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2rem;
+}
+.userContent{
+    border-radius: 20px;
+    box-shadow: 0 0 20px #fff;
+    padding:1rem;
+    margin-left:50px;
+    margin-right:50px;
+    overflow: hidden;
+    font-size:1.5rem;
+    margin-bottom:30px;
+}
+.userContent p{
+    font-family: 'Noto Serif', serif;
+}
+.userContent .desp{
+    font-size:1rem;
+    width:100%;
+    height:auto;
+    overflow-wrap: break-word;
+}
+.userContent .language{
+    font-size:1rem;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius:5px;
+    padding: 5px;
+    background-color: #1E90FF;
+    color:#fff;
+}
+.l1 {
+    margin-top: 10px;
+    padding: 8px;
+    width:140px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.hidden{
+    display:none;
+}
+
+
+.userBox{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   margin-left: 50px;
+   margin-right: 50px;
+   gap:2rem;
+   margin-top: 30px;
+}
+
+.paraBox{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    gap:3rem;
+ 
+}
+.paraBox .img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border-right: 1.5px solid #fff;
+    height: 380px;
+    padding-right: 50px;
+    
+}
+.paraBox .img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 120px #0ef;
+    border:15px solid #fff;
+    border-style:groove;
+}
+.leftBox{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    border-right: 1.9px solid #fff;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    padding:20px;
+    border-radius: 20px;
+    box-shadow: 0 0 120px #fff;
+ 
+}
+.leftBox p{
+    font-family: 'Noto Serif', serif;
+    font-weight: 300;
+}
+.leftBox h4{
+    font-size: 3rem;
+    font-family: 'Noto Serif', serif;
+    font-weight: 800;
+    color:#fff;
+}
+.leftBox h4 .dash{
+    color:#000;
+    font-weight: 400;
+}
+.leftBox p .dash1{
+    color: grey;
+    font-weight:500;
+}
+.leftBox .material-symbols-outlined{
+    font-size: 2.5rem;
+    color: grey;
+    font-weight: 500;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+
+.logo .location{
+    font-family: 'Noto Serif', serif;
+}
+.linkBox{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;  
+  
+}
+.link{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    gap:1rem;
+}
+.link .html-link{
+    font-family: 'Noto Serif', serif ;
+    font-weight: 500;
+}
+.link .material-symbols-outlined{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.btnBox{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin-bottom: 20px;
+    position:fixed;
+    bottom:0;
+    left:85%;
+}
+.btnBox button{
+    padding: 10px;
+    border-radius: 9px;
+    border: none;
+    background: #fff;
+    color: blue;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
